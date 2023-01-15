@@ -250,7 +250,36 @@ nav{
 }
 
 
+/*----------------------------
+     sponsor section style
+---------------------------- */
 
+.sponsor-info{
+    margin: 40px auto;
+    width: 40vw;
+    text-align: center;
+}
+.sponsor-info h2{
+    font-size: 30px;
+}
+.sponsor-info p{
+    color: #727272;
+    font-size: 14px;
+    margin: 20px 10px;
+}
+
+.sponsor-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.sp-logo img{
+    width: 100%;
+    filter: grayscale(100%);
+}
 
 
 
@@ -265,6 +294,18 @@ nav{
     nav, .nav-link ul, .tram , .feature{
         flex-direction: column;
     }   
+    .nav-link{
+        align-self: flex-start;
+    }
+    .nav-link ul{
+        gap: 0px;
+        width: 70vw;
+        padding: 0;
+    }
+    .nav-link li{
+    padding: 1rem;
+
+    }
     .nav-logo{
         margin-bottom: 20px;
     }
@@ -304,8 +345,21 @@ nav{
         grid-gap: 30px;
     }
 
+    /*----------------------------
+     sponsor section style
+    ---------------------------- */
 
-
+    .sponsor-info{
+        width: 95vw;
+    }
+    .sponsor-logo{
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-around ;
+    }
+    .sp-logo img{
+        width:20vw ;
+    }
 }
 
 
