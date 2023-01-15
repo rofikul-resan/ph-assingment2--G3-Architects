@@ -18,7 +18,7 @@ section{
      global css
 ---------------- */
 .contener{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding: 35px 0;
 }
@@ -281,6 +281,22 @@ nav{
     filter: grayscale(100%);
 }
 
+
+
+/*---------------------------------
+         footer section style
+---------------------------------- */
+
+footer .contener{
+    border-radius: 6px;
+    background: #FFF4E7;
+    margin-bottom: 150px;
+}
+
+footer p{
+    color: #727272;
+    text-align: center;
+}
 
 
 @media only screen and (max-width:576px){
