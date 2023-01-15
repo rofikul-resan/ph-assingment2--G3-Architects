@@ -55,6 +55,16 @@ nav{
 }
 .nav-link li{
     list-style: none;
+    padding: 10px 15px;
+    transition: all 0.7s;
+    border-radius: 10px;
+}
+.nav-link li:hover{
+    transform: scale(1.1);
+    background-color: #424242;
+}
+.nav-link li:hover a{
+    color: #fff;
 }
 .nav-link a{
     text-decoration: none;
@@ -195,6 +205,11 @@ nav{
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 40px -18px #424242;;
+    transition: all 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 .card h3{
     font-weight: 500;
@@ -231,7 +246,17 @@ nav{
     padding: 30px;
     border: 1px solid #FF900E;
     border-radius: 5px;
+    transition: all 0.5s;
 }
+.fact-card:hover{
+    transform: scale(1.1);
+    background: #aa702d;
+    color: #fff;
+}
+.fact-card:hover p{
+    color: #fff;
+}
+
 
 .fact-card img{
     display: block;
@@ -282,6 +307,78 @@ nav{
 }
 
 
+/*------------------
+     form style
+=------------------- */
+
+.contact-title{
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto 50px;
+
+}
+.contact-title h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.contact-title p{
+    color: #727272;
+    margin-bottom: 1.5rem;
+}
+
+.contact {
+    display: flex;
+    padding: 4rem 20px;
+    border-radius: 10px;
+}
+
+.contact legend{
+    margin-left: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #424242;
+}
+.contact > div{
+    flex: 1;
+}
+ 
+.fill > input{
+    display: block;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-color: #FF900E;
+}
+.radio-btn{
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+.radio-btn label{
+    margin-left: 5px;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+}
+.review textarea{
+    resize: none;
+    height: 80%;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid #FF900E;
+    padding: 20px;
+}
+
+form .btn{
+    margin: -27px auto 0;
+    
+}
+
+
+
+
+
+
 
 /*---------------------------------
          footer section style
@@ -327,6 +424,10 @@ footer p{
     }
     .title{
         font-size: 26px;
+    }
+
+    .company-info{
+        width: 100%;
     }
 
     .featur-title{
@@ -376,6 +477,24 @@ footer p{
     .sp-logo img{
         width:20vw ;
     }
+/*------------------
+     form style
+=------------------- */
+
+    .contact{
+        flex-direction: column;
+    }
+    .contact legend{
+        font-size: 30px;
+    }
+    .review textarea{
+        width: 67.5vw;
+    }
+
+
+
+
+
 }
 
 
